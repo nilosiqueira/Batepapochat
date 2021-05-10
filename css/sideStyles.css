@@ -1,0 +1,109 @@
+.online-users{
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+.dark-left{
+    position: absolute;
+    width: calc(100% - 259px);
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+.online-info{
+    position: absolute;
+    width: 259px;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 18px;
+    padding-right: 27px;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+.online-title{
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.list-users{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 30px;
+    overflow: scroll;
+}
+.user-online{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.left-side-info{
+    display: flex;
+    align-items: center;
+}
+.destinatary{
+    color: #28BB25;
+    font-size: 26px;
+    font-weight: bold;
+}
+.user-online-icon{
+    font-size: 26px;
+    margin-right: 7px;
+}
+.user-online-name{
+    font-size: 16px;
+}
+.privacity-options{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 30px;
+}
+.privacity{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.left-side-privacity{
+    display: flex;
+    align-items: center;
+}
+.privacity-icon{
+    font-size: 26px;
+    margin-right: 7px;
+}
+.privacity-name{
+    font-size: 16px;
+}
+.choosen-privacity{
+    color: #28BB25;
+    font-size: 26px;
+    font-weight: bold;
+}
+.button-logout{
+    height: 40px;
+    width: 100px;
+    background: red;
+    border: none;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 19px;
+}
